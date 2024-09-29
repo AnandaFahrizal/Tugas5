@@ -6,7 +6,7 @@ double pokok(int jamKerja){
 }
 double lembur(int jamKerja){
     if (jamKerja > 8){
-        return 7500 * 1.5;
+        return 7500 * 1.5 * (jamKerja - 8);
     } else {
         return 0;
     }
